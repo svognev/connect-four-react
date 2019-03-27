@@ -1,0 +1,44 @@
+.Cell {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    padding: 0;
+    border: 5px solid silver;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    -o-user-select: none; 
+    -webkit-user-select: none;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+  }
+  
+  .Cell:active, .Cell:focus {
+    outline: none;
+  }
+  
+  .Cell::-moz-focus-inner {
+    border: 0;
+  }
+  
+  @media all and (max-width: 600px) {
+    .Cell {
+      width: 40px;
+      height: 40px;
+    }
+  
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  .red {
+    background-color: tomato;
+  }
+  
+  .blue {
+    background-color: steelblue;
+  }
